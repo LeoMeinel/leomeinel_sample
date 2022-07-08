@@ -1,0 +1,20 @@
+[package]
+name = "leomeinel_sample"
+version = "0.1.0"
+authors = ["Leopold Johannes Meinel"]
+edition = "2021"
+description = "A sample project to test publishing on https://crates.io"
+homepage = "https://leo.meinel.dev/sample"
+repository = "https://github.com/LeoMeinel/leomeinel_sample"
+readme = "README.md"
+license = "GPL-3.0-or-later"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3
